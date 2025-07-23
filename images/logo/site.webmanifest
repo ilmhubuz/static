@@ -24,12 +24,6 @@
             "platform": "ios"
         },
         {
-            "src": "screenshots/landing/ios.full.png",
-            "sizes": "1170x5871",
-            "type": "image/png",
-            "platform": "ios"
-        },
-        {
             "src": "screenshots/landing/android.png",
             "sizes": "1442x3202",
             "type": "image/png",
