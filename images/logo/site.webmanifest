@@ -1,6 +1,8 @@
 {
     "name": "Ilmhub O'quv Markazi",
     "short_name": "ilmhub",
+    "start_url": "/",
+    "scope": "/",
     "icons": [
         {
             "src": "android-chrome-192x192.png",
