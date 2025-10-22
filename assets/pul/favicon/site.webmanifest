@@ -1,1 +1,82 @@
-{"name":"","short_name":"","icons":[{"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#ffffff","background_color":"#ffffff","display":"standalone"}
+{
+  "name": "Pulingni boshqar! - Oila uchun xarajatlar kuzatuvi",
+  "short_name": "Pulingni boshqar!",
+  "description": "Oilangizning barcha xarajatlarini boshqaring. Pulingni boshqar! - eng yaxshi oilaviy moliya boshqaruvi ilovasi.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#a855f7",
+  "background_color": "#000000",
+  "lang": "uz",
+  "scope": "/",
+  "categories": ["finance", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "https://ilmhubuz.github.io/static/assets/pul/favicon/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "https://ilmhubuz.github.io/static/assets/pul/favicon/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "https://ilmhubuz.github.io/static/assets/pul/favicon/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "https://ilmhubuz.github.io/static/assets/pul/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://ilmhubuz.github.io/static/assets/pul/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://ilmhubuz.github.io/static/assets/pul/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Pulingni boshqar! - Asosiy ekran"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Yangi xarajat",
+      "short_name": "Qo'shish",
+      "description": "Yangi xarajat qo'shing",
+      "url": "/?action=add",
+      "icons": [
+        {
+          "src": "https://ilmhubuz.github.io/static/assets/pul/favicon/android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Hisobotlar",
+      "short_name": "Hisobotlar",
+      "description": "Xarajatlar hisobotini ko'ring",
+      "url": "/?action=charts",
+      "icons": [
+        {
+          "src": "https://ilmhubuz.github.io/static/assets/pul/favicon/android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}
